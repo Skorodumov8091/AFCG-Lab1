@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LAB 1</title>
+</head>
+<body>
+    <div class="work-area">
+        <canvas id="myCanvas" width="600" height="600" style="border: 1px solid black;"></canvas>
+        <div class="test">
+            <div class="example-1">Example 1</div>
+            <div class="example-2">Example 2</div>
+            <div class="example-3">Example 3</div>
+        </div>
+    </div>
+    <div class="toolbar">
+        <div class="draw-figure">Draw</div>
+        <div class="clear-canvas">Clear</div>
+        <div class="move">
+            <form action="">
+                <input type="number" id="move-value" name="shift" value="1">
+            </form>
+            <div class="move-left">Move left</div>
+            <div class="move-right">Move rigth</div>
+            <div class="move-top">Move top</div>
+            <div class="move-bottom">Move bottom</div>
+        </div>
+        <div class="turn">
+            <div class="turn-left">Turn left</div>
+            <div class="turn-right">Turn rigth</div>
+        </div>
+        <div class="scaling">
+            <form action="">
+                <input type="number" id="scale-value" name="scale" value="1.1" step="0.1">
+            </form>
+            <div class="scale-plus">Scale plus</div>
+            <div class="scale-minus">Scale minus</div>
+        </div>
+        <div class="tab">tab</div>
+    </div>
+    <script src="js/main.js"></script> 
+</body>
+</html>
